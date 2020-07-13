@@ -5967,7 +5967,7 @@ body header {
 	background: #fff;
 	-webkit-transition: 0.8s;
 	transition: 0.8s;
-	z-index: 999;
+	z-index: 9999;
 }
 body header.sticky {
 	position: fixed;
@@ -6107,6 +6107,7 @@ body .navbar-inverse .navbar-brand {
 }
 body #myCarousel .carousel {
 	height: 600px;
+	z-index: 2;
 }
 body #myCarousel .slider_btn .btn {
 	margin: 5px 10px;

@@ -19,25 +19,25 @@
 //     $('.panel-group').on('shown.bs.collapse', toggleIcon);
 //
 // });
-//
-//
-// $(window).scroll(function() {
-//
-//     if ($(this).scrollTop() > 50) {
-//         $('header').addClass("sticky");
-//     } else {
-//         $('header').removeClass("sticky");
-//     }
-// });
-//
-//
-// function toggleIcon(e) {
-//     $(e.target)
-//         .prev('.panel-heading')
-//         .find(".more-less")
-//         .toggleClass('fa-plus fa-minus');
-// }
-//
+
+
+$(window).scroll(function() {
+
+    if ($(this).scrollTop() > 50) {
+        $('header').addClass("sticky");
+    } else {
+        $('header').removeClass("sticky");
+    }
+});
+
+
+function toggleIcon(e) {
+    $(e.target)
+        .prev('.panel-heading')
+        .find(".more-less")
+        .toggleClass('fa-plus fa-minus');
+}
+
 // function mytheme(index) {
 //     switch (index) {
 //         case 0:
